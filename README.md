@@ -1,10 +1,10 @@
-# Emotion-Driven POI Recommendation with Deep Facial Feature Analysis
+# LTCA: A Lightweight Attention Mechanism in Video Transformers for Facial Emotion Recognition
 
 <img style="max-width: 100%;" src="https://github.com/rizwanchouhan/emoltca/blob/main/resources/wax.png" alt="VERHM Overview">
 
 # Overview
 
-This work introduces an emotion-aware POI recommendation system that uses facial features and video-based emotion recognition (CNN + LSTM) along with age and gender. It also proposes the emoltca dataset and achieves improved accuracy over existing methods.
+Our work introduces EmoLTCA, a facial emotion recognition framework that captures subtle facial changes and local temporal variations using a lightweight attention mechanism. We also introduce the EmoLTCA dataset, containing 52,486 facial images from 1,824 individuals across eight emotion categories, to support research on static and video-based emotion recognition.
 
 # 👁️💬 Architecture
 
@@ -48,5 +48,5 @@ To get started, ensure you have the necessary libraries installed:
 
 - **FER-2013:** You can download the FER2013 dataset from [here](https://www.kaggle.com/datasets/msambare/fer2013).
 
-- **EmoLTCA:** The complete EmoLTCA dataset will be available upon request for research purposes after the paper is accepted.
-_age_gender_recognition.py` (provide the proper path to your video). Based on the recognized emotion, gender, and age group, you will receive personalized POI recommendations suited to the user's preferences.
+- **EmoLTCA:** The EmoLTCA dataset comprises 52,486 facial images from 1,824 individuals across eight emotion categories, including sequential frames for analyzing temporal variations in facial expressions. The complete EmoLTCA dataset will be available upon request for research purposes after the paper is accepted.
+
